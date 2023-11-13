@@ -12,11 +12,17 @@ while int(guess) != number:
     if guess == number:                                     # Break while loop if guess is correct
         break
     elif guess > number:
-        print("Remember, the number is between 1 and 25.")  # Remind user of the range
-    else:                                       
-        print('Nope! Try again.')                           # Tell user to try again
-
+        print("=====")
+        print("Number is between 1 and 25!")                # Remind user of the range
+        print("=====")
+    else: 
+        print("=====")                                      
+        print('Nope! Try again.')                           # Tell user to try again 
+        print("=====")                       
 
 
 # Message to display when guessed
 print("You guessed it! The number was: " + str(number))
+
+###TODO
+# guess counter and numbers guessed
