@@ -13,7 +13,7 @@ while int(guess) != number:
         break
     elif guess > number:
         print("=====")
-        print("Number is between 1 and 25!")                # Remind user of the range
+        print("Number is between 1 and 25!")                # This is wrong!!! fix its checking if number is greater than random number generated not end range number
         print("=====")
     else: 
         print("=====")                                      
