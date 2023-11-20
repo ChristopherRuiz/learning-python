@@ -6,7 +6,7 @@ state_county_tuples = zip(state_names, county_names)
 ca_counties_loop = []
 for state, county in state_county_tuples:
     if state == 'California':
-        ca_counties.append(county)
+        ca_counties_loop.append(county)
 
 print (ca_counties_loop)
 
