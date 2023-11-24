@@ -1,1 +1,1 @@
-Learning Python (and git workflow)
+All things python
